@@ -20,7 +20,7 @@ const MainPage = () => {
               className='hidden lg:block md:block'
             />
           </div>
-          <p className='text-center pt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium recusandae omnis, quis ea perspiciatis cupiditate. Sint ex id deserunt, ad velit ducimus quos, minus fugit autem, nesciunt suscipit mollitia placeat!</p>
+          <p className='lg:text-xl md:text-md text-center pt-4'>Next.js is an open-source web development framework created by the private company <a className='text-blue-700 font-bold' href='https://nextjs.org/' target='blank_page'>Vercel</a> providing React-based web applications with server-side rendering and static website generation.</p>
         </div>
         <div className='text-white bg-pink-500 col-span-2 text-center py-2 px-2 rounded-lg shadow-md border-2 border-red-700'>02</div>
         <div className='text-white bg-pink-500 col-span-2 text-center py-2 px-2 rounded-lg shadow-md border-2 border-red-700'>03</div>
