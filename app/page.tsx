@@ -11,7 +11,7 @@ const MainPage = () => {
       <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-4'>
 
         {/* Next Component */}
-        <div className='text-white bg-pink-500 col-span-2 py-6 px-4 rounded-lg shadow-md border-2 border-red-700'>
+        <div className='text-white text-center bg-pink-500 col-span-2 py-6 px-4 rounded-lg shadow-md border-2 border-red-700'>
           <h1 className='text-center text-4xl font-semibold lg:mb-2 md:mb-6'>Next.js</h1>
           <div className='grid text-center justify-items-center lg:p-10'>
             <Image
@@ -21,6 +21,9 @@ const MainPage = () => {
               height={300}
               className='hidden lg:block md:block'
             />
+          </div>
+          <div className='mt-4'>
+            <button className='font-semibold bg-gray-900 hover:bg-gray-500 py-2 px-6 rounded-full shadow-lg'>INFO</button>
           </div>
           <p className='lg:text-xl md:text-md text-center pt-4'> <a className='text-blue-700 font-bold' href='https://nextjs.org/' target='blank_page'>Next.js</a> is an open-source web development framework created by the private companyVercel providing React-based web applications with server-side rendering and static website generation.</p>
         </div>
@@ -36,6 +39,9 @@ const MainPage = () => {
               height={300}
               className='hidden lg:block md:block'
             />
+          </div>
+          <div className='mt-4'>
+            <button className='font-semibold bg-[#48d2f5] hover:bg-[#3db4d1] py-2 px-6 rounded-full shadow-lg'>INFO</button>
           </div>
           <p className='lg:text-xl md:text-md text-center pt-4'><a className='text-blue-700 font-bold' href="https://react.dev/" target='blank_page'>React</a> components receive data and return what should appear on the screen. You can pass them new data in response to an interaction, like when the user types into an input. React will then update the screen to match the new data</p>
         </div>
