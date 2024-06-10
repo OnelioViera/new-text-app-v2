@@ -37,7 +37,7 @@ const MainPage = () => {
               className='hidden lg:block md:block'
             />
           </div>
-          <p className='lg:text-lg md:text-md text-center pt-4'><a className='text-blue-700 font-bold' href="https://react.dev/" target='blank_page'>React</a> components receive data and return what should appear on the screen. You can pass them new data in response to an interaction, like when the user types into an input. React will then update the screen to match the new data</p>
+          <p className='lg:text-xl md:text-md text-center pt-4'><a className='text-blue-700 font-bold' href="https://react.dev/" target='blank_page'>React</a> components receive data and return what should appear on the screen. You can pass them new data in response to an interaction, like when the user types into an input. React will then update the screen to match the new data</p>
         </div>
 
         {/* Tailwind Components */}
