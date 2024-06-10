@@ -51,7 +51,7 @@ const MainPage = () => {
           <h1 className='text-center text-4xl font-semibold lg:mb-2 md:mb-6'>Tailwindcss</h1>
           <div className='grid text-center justify-items-center lg:p-10'>
             <Image
-              src='/images/tailwind.png'
+              src='/images/Tailwind.png'
               alt='image'
               width={400}
               height={400}
