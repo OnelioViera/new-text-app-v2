@@ -4,9 +4,9 @@ import Image from 'next/image';
 const MainPage = () => {
   return (
     <>
-      <div className='p-10'>
+      <div>
         <h1 className='text-3xl font-bold'>Hello, Tailwind!</h1>
-        <p className='mt-5'>This is a simple example of a React component using next.js.</p>
+        <p className='my-5'>This is a simple example of a React component using next.js.</p>
       </div>
       <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-4'>
         <div className='text-white bg-pink-500 col-span-2 p-6 rounded-lg shadow-md border-2 border-red-700'>
