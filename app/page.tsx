@@ -48,7 +48,7 @@ const MainPage = () => {
 
         {/* Tailwind Component */}
         <div className='text-white bg-pink-500 col-span-2 text-center py-6 px-4 rounded-lg shadow-md border-2 border-red-700'>
-          <h1 className='text-center text-4xl font-semibold lg:mb-2 md:mb-6'>Tailwindcss</h1>
+          <h1 className='text-center text-4xl font-semibold lg:mb-2 md:mb-6'>Tailwind CSS</h1>
           <div className='grid text-center justify-items-center lg:p-10'>
             <Image
               src='/images/Tailwind.png'
