@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const MainPage = () => {
   return (
@@ -8,7 +9,18 @@ const MainPage = () => {
         <p className='mt-5'>This is a simple example of a React component using next.js.</p>
       </div>
       <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-4'>
-        <div className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-80 hover:bg-indigo-500 duration-300 text-white bg-pink-500 col-span-2 hover:col-span-4 text-center py-2 px-2 rounded-lg shadow-md border-2 border-red-700'>01</div>
+        <div className='text-white bg-pink-500 col-span-2 p-6 rounded-lg shadow-md border-2 border-red-700'>
+          <h1 className='text-center text-2xl font-semibold'>Card Title</h1>
+          <div className='grid text-center justify-items-center p-10'>
+            <Image
+              src='/images/nextjs.png'
+              alt='image'
+              width={300}
+              height={300}
+            />
+          </div>
+          <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium recusandae omnis, quis ea perspiciatis cupiditate. Sint ex id deserunt, ad velit ducimus quos, minus fugit autem, nesciunt suscipit mollitia placeat!</p>
+        </div>
         <div className='text-white bg-pink-500 col-span-2 text-center py-2 px-2 rounded-lg shadow-md border-2 border-red-700'>02</div>
         <div className='text-white bg-pink-500 col-span-2 text-center py-2 px-2 rounded-lg shadow-md border-2 border-red-700'>03</div>
         <div className='text-white bg-pink-500 col-span-2 text-center py-2 px-2 rounded-lg shadow-md border-2 border-red-700'>04</div>
@@ -29,11 +41,11 @@ const MainPage = () => {
       </div>
 
       <div className='grid grid-rows-3 grid-flow-col gap-4 mt-6'>
-        <div className='row-span-3 bg-green-400 text-white font-bold text-center py-2 px-2 border-green-600 border-2 shadow-md rounded-md'>01</div>
+        <div className='row-span-3 bg-green-400 text-white font-bold text-center py-2 px-2 border-green-600 border-2 shadow-md rounded-md'>01
+        </div>
         <div className='col-span-2 bg-green-400 text-white font-bold text-center py-2 px-2 border-green-600 border-2 shadow-md rounded-md'>02</div>
         <div className='row-span-2 col-span-2 bg-green-400 text-white font-bold text-center py-2 px-2 border-green-600 border-2 shadow-md rounded-md'>03</div>
       </div>
-
     </>
   )
 };
