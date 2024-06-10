@@ -10,16 +10,17 @@ const MainPage = () => {
       </div>
       <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-4'>
         <div className='text-white bg-pink-500 col-span-2 p-6 rounded-lg shadow-md border-2 border-red-700'>
-          <h1 className='text-center text-2xl font-semibold'>Card Title</h1>
-          <div className='grid text-center justify-items-center p-10'>
+          <h1 className='text-center text-2xl font-semibold'>Next.js</h1>
+          <div className='grid text-center justify-items-center lg:p-10'>
             <Image
               src='/images/nextjs.png'
               alt='image'
               width={300}
               height={300}
+              className='hidden lg:block md:block'
             />
           </div>
-          <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium recusandae omnis, quis ea perspiciatis cupiditate. Sint ex id deserunt, ad velit ducimus quos, minus fugit autem, nesciunt suscipit mollitia placeat!</p>
+          <p className='text-center pt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium recusandae omnis, quis ea perspiciatis cupiditate. Sint ex id deserunt, ad velit ducimus quos, minus fugit autem, nesciunt suscipit mollitia placeat!</p>
         </div>
         <div className='text-white bg-pink-500 col-span-2 text-center py-2 px-2 rounded-lg shadow-md border-2 border-red-700'>02</div>
         <div className='text-white bg-pink-500 col-span-2 text-center py-2 px-2 rounded-lg shadow-md border-2 border-red-700'>03</div>
