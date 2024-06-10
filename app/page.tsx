@@ -9,8 +9,8 @@ const MainPage = () => {
         <p className='my-5'>This is a simple example of a React component using next.js.</p>
       </div>
       <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-4'>
-        <div className='text-white bg-pink-500 col-span-2 p-6 rounded-lg shadow-md border-2 border-red-700'>
-          <h1 className='text-center text-2xl font-semibold'>Next.js</h1>
+        <div className='text-white bg-pink-500 col-span-2 py-6 px-4 rounded-lg shadow-md border-2 border-red-700'>
+          <h1 className='text-center text-4xl font-semibold lg:mb-2 md:mb-6'>Next.js</h1>
           <div className='grid text-center justify-items-center lg:p-10'>
             <Image
               src='/images/nextjs.png'
