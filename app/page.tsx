@@ -41,7 +41,7 @@ const MainPage = () => {
             />
           </div>
           <div className='hidden lg:block md:block mt-4'>
-            <button className='font-semibold bg-[#48d2f5] hover:bg-[#3db4d1] py-2 px-6 rounded-full shadow-lg'><a href='https://react.dev/' target='blank_page'>MORE INFO</a></button>
+            <button className='font-semibold bg-gray-900 hover:bg-gray-500 py-2 px-6 rounded-full shadow-lg'><a href='https://react.dev/' target='blank_page'>MORE INFO</a></button>
           </div>
           <p className='lg:text-left md:text-left lg:text-xl md:text-md text-center pt-4'><a className='text-blue-500 hover:text-blue-700 hover:underline font-bold' href="https://react.dev/" target='blank_page'>React</a> components receive data and return what should appear on the screen. You can pass them new data in response to an interaction, like when the user types into an input. React will then update the screen to match the new data</p>
         </div>
@@ -59,7 +59,7 @@ const MainPage = () => {
             />
           </div>
           <div className='hidden lg:block md:block mt-4'>
-            <button className='font-semibold bg-[#48d2f5] hover:bg-[#3db4d1] py-2 px-6 rounded-full shadow-lg'><a href='https://react.dev/' target='blank_page'>MORE INFO</a></button>
+            <button className='font-semibold bg-gray-900 hover:bg-gray-500 py-2 px-6 rounded-full shadow-lg'><a href='https://react.dev/' target='blank_page'>MORE INFO</a></button>
           </div>
           <p className='lg:text-left md:text-left lg:text-xl md:text-md text-center pt-4'><a className='text-blue-500 hover:text-blue-700 hover:underline font-bold' href="https://tailwindcss.com/" target='blank_page'>Tailwind CSS</a> works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.</p>
         </div>
